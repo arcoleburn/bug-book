@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newEntry.css">
+</head>
+<body>
+    <div class="view">
+        <header>
+            <h1>BugBook</h1>
+            <select>
+                <option value="home">Home</option>
+                <option value="today">Today's Entry</option>
+                <option value="timeline">Timeline</option>
+                <option value="viz">Vizualize</option>
+            </select>
+        </header>
+        <section class="entry">
+            <form>
+                <label for="rating">How was today? (-2/+2 scale)</label>
+                <select name="rating" id="rating">
+                    <option value="-2">-2</option>
+                    <option value="-1">-1</option>
+                    <option value="0" selected>0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select>
+                <label for='hours'> How many hours did you spend creatively today? </label>
+                <input type="number" name="hours" id="hours">
+                <label for="journal"> Tell me about today:</label>
+                <textarea name="journal" id="journal"></textarea>
+            </form>
+        </section>
+        </div>
+        <div class="view">
+            <header>
+                <h1>BugBook</h1>
+                <select>
+                    <option value="home">Home</option>
+                    <option value="today">Today's Entry</option>
+                    <option value="timeline">Timeline</option>
+                    <option value="viz">Vizualize</option>
+                </select>
+            </header>
+            <h3>Timeline</h3>
+            <div class="day">
+                <p>Date</p><p>Creative Hours</p><p>Rating</p>
+            </div>
+            <div class="day">
+                <p>Date</p><p>Creative Hours</p><p>Rating</p>
+            </div>
+            <div class="day">
+                <p>Date</p><p>Creative Hours</p><p>Rating</p>
+            </div>
+            <div class="day">
+                <p>Date</p><p>Creative Hours</p><p>Rating</p>
+            </div>
+            <div class="day">
+                <p>Date</p><p>Creative Hours</p><p>Rating</p>
+            </div>
+            <div class="day">
+                <p>Date</p><p>Creative Hours</p><p>Rating</p>
+            </div>
+        </div>
+        <div class="view">
+            <header>
+                <h1>BugBook</h1>
+                <select>
+                    <option value="home">Home</option>
+                    <option value="today">Today's Entry</option>
+                    <option value="timeline">Timeline</option>
+                    <option value="viz">Vizualize</option>
+                </select>
+            </header>
+            <h3>Vizualize</h3>
+            <div class="graph"> graph will go here</div>
+            <div class='btnrow'><button>Score/Time</button>
+            <button>Hours/Time</button>
+            <button>Score/Hours</button></div>
+</body>
+</html>
